@@ -1,0 +1,249 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Reggae+One&display=swap'); */
+/* CSS Variables */
+:root{
+    --navbar-height: 50px;
+}
+/* Navigation Bar */
+
+#navbar{
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+#navbar img{
+    height: 100px;
+    margin-right: 50px;
+}
+#navbar ul{
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+}
+#navbar ul li{
+    
+    list-style: none;
+    padding: 25px 15px;
+    font-size: 1.3rem;
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+}
+#navbar li a{
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 25px 25px;
+}
+
+#navbar ul li :hover{
+    background-color: #f56161;
+    border-radius: 20px;
+}
+
+/* Home Section */
+#Home{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: -1px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 656px;
+}
+.btn{ font-size: 1.2rem;
+    padding: 27px 20px;
+    margin: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2.2px solid black;
+    background-color: white;
+}
+.btn:hover{
+    background-color: black;
+    transition-property: background-color border;
+    transition-duration: 0.001s;
+    transition-timing-function: ease-in-out;
+    height: 80px;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+    border-style:dashed;
+    color: white;
+    border: 2.2px solid white;
+}
+.primary{
+    font-size: 60px;
+    font-family: 'Reggae One', cursive;
+    color: black;
+}
+.write{
+    font-family: 'PT Serif', serif;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    color: black;
+}
+/* SERVICES */
+
+#services{
+    margin: 34;
+    display: flex;
+    background-color: rgb(78 123 162);
+}
+#services .box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 12px 12px black;
+    background-color: #7f7f7f;
+    box-shadow: inset;
+}
+.secondary{
+    font-size: 60px;
+    font-family: 'Reggae One', cursive;
+    color: black;
+}
+#services .box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+#services .box:hover{
+    cursor: pointer;
+    transition-property: background-color border;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    height: 369px;
+    width: 400px;
+    background-color: transparent;
+
+}
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 7rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 3rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+    color: black;
+}
+.h-third{
+    font-size: 5rem;
+    padding: 12px;
+}
+.h-fourth{
+    font-size: 5rem;
+    padding: 12px;
+}
+/* Clients Section */
+#client-section{
+    height: 450px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('12303.jpg');
+    width: 100%;
+    height: 140%;
+    z-index: -1;
+    opacity: 0.7; 
+ }
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#client  img{
+    height: 200px;
+}
+.client-items{
+    padding: 40px;
+}
+/* background video */
+
+.fullscreen-video-wrap{
+    position:absolute;
+    width: 100%;
+    height: auto;
+    z-index: -2;
+    opacity: 0.7;
+}
+input[type=search]{
+   width: 10%;
+   padding: 0;
+}
+.h-secondary center{
+    margin-top: 260px;
+}
+.formbox textarea{
+    width: 90%;
+    margin: 0px 5px 20px 5px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 12px;
+
+}
+
+.formbox input{
+    width: 90%;
+    margin: 0px 5px 20px 5px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.formbox label{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#contact-us form{
+    width: 28%;
+}
+#contact-us{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+.fourth{
+    font-size: 60px;
+    font-family: 'Reggae One', cursive;
+    color: black;
+}
+
+input[type=submit]{
+    width: 30%;
+    padding: 4%;
+    margin-left: 32%;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    flex-wrap: wrap;
+}  
+/* input[type=submit]:hover{
+    border-style:inherit;
+}
+.formbox textarea:hover{
+    border-style: inherit;
+} */
+html{
+    scroll-behavior: smooth;
+}

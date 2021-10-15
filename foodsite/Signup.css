@@ -1,0 +1,80 @@
+#dog{
+    width: 20%;
+    float: right;
+    margin-right: 20%;
+}
+#heading{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    margin-left: 37%;
+    font-variant: small-caps;
+}
+.box [placeholder=Name],[placeholder=Last-Name],[placeholder=Email],[type=Password],[placeholder=Password],[type=date]{
+    width: 90%;
+    padding: 3%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor:text;
+    
+}
+/* Navigation Bar */
+
+#navbar{
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+#navbar img{
+    height: 100px;
+    margin-right: 50px;
+}
+#navbar ul{
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+}
+#navbar ul li{
+    
+    list-style: none;
+    padding: 25px 15px;
+    font-size: 1.3rem;
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+}
+#navbar li a{
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 25px 25px;
+}
+
+#navbar ul li :hover{
+    background-color: #f56161;
+    border-radius: 20px;
+}
+#gender{
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type=submit]{
+    width: 40%;
+    padding: 3%;
+    margin-left: 25%;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.jln [placeholder=Name]:hover,[placeholder=Last-Name]:hover,[placeholder=Email]:hover,[type=Password]:hover,[placeholder=Password]:hover,[type=date]:hover{
+    border-style:inherit;
+}
+input[type=submit]:hover{
+    border-style:inherit;
+}

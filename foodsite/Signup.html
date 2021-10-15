@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up</title>
+    <link rel="Stylesheet" href="Signup.css">
+    <link rel="Stylesheet" href="header.css">
+    <header>
+        <!-- <nav class="navbar">
+            <ul>
+                <li><a href="Petop.html"> Home</a></li>
+                <li><a>About</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a>Contact us</a></li>
+                <div class="search">
+                     <input type="search" name="search" id="search" placeholder="Search from web">
+                     <a href type="search"><input type="button" value="Search"></a> 
+                </div>
+            </ul>
+        </nav> -->
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo.png" alt="MyonlineMeal.com">
+            </div>
+            <ul>
+                <li class="item"><a href="Home.html">Home</a></li>
+                <li class="item"><a href="#services-container">Services</a></li>
+                <li class="item"><a href="# About Us">About Us</a></li>
+                <li class="item"><a href="#contact-section">Contact Us</a></li>
+            </ul>
+    </header>
+    <style>
+        body {
+            background-image: url(Background.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Sign Up</h1><br>
+
+    <div id="dog" class="jln">
+        <form action="backend.php">
+            <div class="box">
+
+                <div>
+                    <input placeholder="Name" name="First Name" id="First Name">
+            </div><br>
+            <div>
+                <input placeholder="Last-Name" name="Last Name" id="Last Name">
+            </div><br>
+            <div>
+                <input placeholder="Email" name="Email" id="Email">
+            </div><br>
+            <div>
+                <input type="Password" placeholder="Password" name="Password" id="Password">
+            </div><br>
+        
+                <div style="font-size: 20px;">
+                    <b>D.O.B.</b>
+                </div>
+                <input type="date" name="D.O.B" id="D.O.B">
+            <br>
+            <div id="gender">
+                Gender: <br> <input type="radio" name="gender">Male
+                 <input type="radio" name="gender" >Female
+                     <input type="radio" name="gender" >Other
+            </div><br>
+            <div>
+                <input type="submit" value="Sign Up">
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
